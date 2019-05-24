@@ -4,7 +4,10 @@ Its a basic project, demonstrating connection of Ultrasonic Distance Sensor with
 ## Ultrasonic Distance Sensor
 Following is a picture of this sensor, easily available on Amazon:
 
-[PICTURE LINK]
+|![UltrasonicDistanceSensor](https://github.com/sansinghsanjay/UltrasonicDistanceSensor_RPi_Connection/blob/master/images/ultrasonic_distance_sensor.jpg) |
+|:--:|
+| *Ultrasonic Distance Sensor* |
+
 
 This sensor performs two operations to measure distance:
 1. It transmits ultrasonic waves.
@@ -38,4 +41,7 @@ Ultrasonic Distance Sensor has four pins, and following is the connections of th
 4. Gnd of Ultrasonice Sensor -> Pin 6 of RPi
 5. For rest of the details, check the below picture:
 
-[CONNECTION PICTURE]
+|![connection_RPi_UltrasonicDistanceSensor](https://github.com/sansinghsanjay/UltrasonicDistanceSensor_RPi_Connection/blob/master/images/connections.jpg) |
+|:--:|
+| *Connection of Raspberry Pi with Ultrasound Distance Sensor* |
+
