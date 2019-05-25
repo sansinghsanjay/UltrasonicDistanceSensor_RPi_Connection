@@ -53,9 +53,12 @@ Following are the required items:
 Ultrasonic Distance Sensor has four pins, and following is the connections of these pins:
 1. VCC of Ultrasonic Sensor -> Pin 2 of RPi
 2. Trig of Ultrasonic Sensor -> Pin 12 of RPi
-3. Echo of Ultrasonic Sensor -> At one terminal of 300 Ohm resistor in breadboard
-4. Gnd of Ultrasonice Sensor -> Pin 6 of RPi
-5. For rest of the details, check the below picture:
+3. Echo of Ultrasonic Sensor -> At one terminal of 300 Ohm resistor in breadboard.
+4. One connection from the joint of 300 Ohms and 350 Ohms resistor in breadboard, to Pin 18 of RPi.
+5. Gnd of Ultrasonice Sensor -> Horizontal short-circuit row of breadboard, another wire from the same horizontal row will go to Pin 6 of RPi.
+6. One connection from the same horizontal row of breadboard (as in step 5) to the another terminal of 350 Ohms resistor.
+
+For more details, check the image below:
 
 |![connection_RPi_UltrasonicDistanceSensor](https://github.com/sansinghsanjay/UltrasonicDistanceSensor_RPi_Connection/blob/master/images/connections.jpg) |
 |:--:|
