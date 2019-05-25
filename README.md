@@ -13,18 +13,34 @@ This sensor performs two operations to measure distance:
 1. It transmits ultrasonic waves.
 2. It receives these waves. 
 
-Based on the transmitting and receiving time of ultrasonic waves, distance can be measured.
+Based on the transmitting and receiving time of ultrasonic waves, distance can be measured. Following is the audio frequency spectrum picture, which makes it clear that ultrasonic sounds are beyond the human hearing capability:
+
+|![AudioFrequencySpectrum]()|
+|:--:|
+| *Audio Frequency Spectrum* |
 
 Some important features of this sensor:
 1. Detection Distance: 2 to 450 cm, blind spot of 2 cm.
 2. Precision: up to 0.3 cm
 3. This module sends eight 40KHz square wave.
 
-Controlling module (Raspberry Pi, in this case), triggers this module to transmit waves, upon receiving, this module will signal to Raspberry Pi by its echo pin. Since, the echo pin generates the signal of 5V and the tolerance of GPIO pin is only 3.5 V, so we have to use few resistors, otherwise it may burn our GPIO pin.
+Controlling module (Raspberry Pi, in this case), triggers this module to transmit waves, upon receiving, this module will signal to Raspberry Pi by its echo pin. Since, the echo pin generates the signal of 5V and the tolerance of GPIO pin is only up to 3.3 V, so we have to use resistors, otherwise it may burn our GPIO pin.
 
-In this entire connection, voltage divider is created by using resistors.
+In this entire connection, a voltage divider is created by using two resistors in series.
 
-## Voltage Divider
+## Voltage Divider aka Potential Divider
+Voltage Divison Rule: The voltage is divided between two series resistors in direct proportion to their resistance.
+Following is the equation of Voltage Divison Rule:
+
+|![VoltageDivisonEquation]()|
+|:--:|
+| *Voltage Divison Equation* |
+
+Purpose of Voltage Divison: A voltage divider is a small circuit which turns a large voltage into a smaller one. Using just two resistors and an input voltage, we can create an output voltage that is fraction of of the input.
+
+|![VoltageDivisonCircuitDiagram]()|
+|:--:|
+| *Voltage Divider Circuit Diagram [Ref.](https://learn.sparkfun.com/tutorials/voltage-dividers/all)*|
 
 ## Required Items
 Following are the required items:
