@@ -1,4 +1,4 @@
-# Raspberry Pi - Ultrasonic Distance Sensor Connection
+# Pi - Ultrasonic Distance Sensor Connection
 Its a basic project, demonstrating connection of Ultrasonic Distance Sensor with Raspberry Pi - 3 Model B.
 
 ## Ultrasonic Distance Sensor
@@ -61,3 +61,8 @@ Ultrasonic Distance Sensor has four pins, and following is the connections of th
 |:--:|
 | *Connection of Raspberry Pi with Ultrasound Distance Sensor* |
 
+## How to run
+After making all connections, as specified above, run the python script in stored in scripts directory:
+```$ python script.py```
+
+This script is developed and tested in Python - 2.7.9 in Raspberry Pi 3 Model B.
