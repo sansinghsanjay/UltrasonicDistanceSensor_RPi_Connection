@@ -15,7 +15,7 @@ This sensor performs two operations to measure distance:
 
 Based on the transmitting and receiving time of ultrasonic waves, distance can be measured. Following is the audio frequency spectrum picture, which makes it clear that ultrasonic sounds are beyond the human hearing capability:
 
-|![AudioFrequencySpectrum]()|
+|![AudioFrequencySpectrum](https://github.com/sansinghsanjay/UltrasonicDistanceSensor_RPi_Connection/blob/master/images/AudioFrequencySpectrum.gif)|
 |:--:|
 | *Audio Frequency Spectrum* |
 
@@ -32,13 +32,13 @@ In this entire connection, a voltage divider is created by using two resistors i
 Voltage Divison Rule: The voltage is divided between two series resistors in direct proportion to their resistance.
 Following is the equation of Voltage Divison Rule:
 
-|![VoltageDivisonEquation]()|
+|![VoltageDivisonEquation](https://github.com/sansinghsanjay/UltrasonicDistanceSensor_RPi_Connection/blob/master/images/voltage_divider_equation.jpg)|
 |:--:|
 | *Voltage Divison Equation* |
 
 Purpose of Voltage Divison: A voltage divider is a small circuit which turns a large voltage into a smaller one. Using just two resistors and an input voltage, we can create an output voltage that is fraction of of the input.
 
-|![VoltageDivisonCircuitDiagram]()|
+|![VoltageDivisonCircuitDiagram](https://github.com/sansinghsanjay/UltrasonicDistanceSensor_RPi_Connection/blob/master/images/voltage_divider_circuit.jpg)|
 |:--:|
 | *Voltage Divider Circuit Diagram [Ref.](https://learn.sparkfun.com/tutorials/voltage-dividers/all)*|
 
